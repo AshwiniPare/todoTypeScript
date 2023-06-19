@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 
 import todosRoutes from './routes/todos';
 const app =express();
-
+console.log('hi');
 app.use(bodyParser.json);
 
 app.use(todosRoutes);
